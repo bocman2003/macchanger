@@ -3,8 +3,8 @@ import random
 
 
 
-interface = input("napis interfce ktoreho menis mac\n")
-mac = str(input("napis mac adresu na ktoru chces zmenit alebo random(r):\n"))
+interface = input("interface u wanna change mac on:\n")
+mac = str(input("type a mac or random(r):\n"))
 
 #random mac gen
 if mac == "r":
