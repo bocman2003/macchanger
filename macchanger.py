@@ -8,11 +8,11 @@ def randmac():
    while True:
       if counter == 6:
          return mac
-      cislo = str(random.randrange(10, 99))
+      number = str(random.randrange(10, 99))
       if counter == 5:
-         mac = mac + cislo
+         mac = mac + number
       else:
-         mac = mac + cislo + ":"
+         mac = mac + number + ":"
       counter += 1
 
 def macchange():
